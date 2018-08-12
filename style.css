@@ -67,14 +67,14 @@ main{
     margin-bottom: 35px;
 }
 
-.slogon-one{
+.slogon-main{
     margin: 65px 0 0 0;
     font-size: 60px;
 }
 .and{
     color: #00bff3;
 }
-.slogon-two{
+.slogon-alt{
     font-size: 50px;
     color: #bbbbbb;
     margin-top: 0;
@@ -87,7 +87,7 @@ main{
     margin-top:0;
 }
 
-.content-one{
+.content-top{
     display: flex;
     justify-content: space-between;
    
@@ -140,10 +140,14 @@ main{
     text-transform: uppercase;
     text-decoration: none;
 }
+.more::after{
+    content: ">>";
+    padding-left: 5px;
+}
 .proposal-more:hover{
     color: #00aeef;
 }
-.content-two{
+.content-next{
     display: flex;
     color: #555555;
 }
@@ -231,11 +235,3 @@ footer{
     font: 16px Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
-
-
-
-
-
-
-
